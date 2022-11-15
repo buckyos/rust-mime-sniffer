@@ -412,6 +412,7 @@ const MAGIC_XML: &'static [Magic] = &[
     ),
     Magic::String("application/atom+xml", "<feed"),
     Magic::String("application/rss+xml", "<rss"),
+    Magic::String("image/svg+xml", "<svg"),
 ];
 
 // Returns true and sets result if the content appears to contain XHTML or a feed.
